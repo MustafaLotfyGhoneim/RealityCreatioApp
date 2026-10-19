@@ -1,0 +1,12 @@
+# Ignore every direct child of Pkg (all built-in system packages)
+/*
+
+# Keep only your custom package
+!UsrReality/
+
+# Keep this file itself in the repo
+!.gitignore
+
+# Still exclude build artifacts inside UsrReality
+UsrReality/[Bb]in/
+UsrReality/[Oo]bj/
